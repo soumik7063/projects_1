@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-image: url(img/img_gym_5.jpg);
+            height: 1080px;
+        }
+        .formg{
+            display: block;
+            border: 4px solid white;
+            margin: 150px 100px 0px;
+            padding: 50px ;
+            width: 36%;
+            border-radius: 9px;
+            box-shadow: 10px 10px 10px white;
+        }
+        .fitness input{
+            font-family: agbalumo;
+            text-align: center;
+            display: block;
+            margin:10px auto;
+            padding: 3px;
+            width: 82%;
+            border: 2px solid rgb(32, 31, 31);
+            border-radius: 6px;
+            font-size: 17px;
+        }
+        .formg button:hover {
+            background-color: rgb(54, 52, 52);
+            color: rgb(243, 238, 238);
+            border: 2px solid rgb(232, 225, 225);
+            font-size: 20px;
+        }
+        .formg button{
+            font-family: agbalumo;
+            display: block;
+            border: 4px solid rgb(231, 220, 220);
+            width: 36%;
+            margin: 10px auto;
+            padding: 9px;
+            border-radius: 9px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        .radio{
+            color: white;
+            display: inline;
+            width: 20%;
+        }
+        .mid{
+            display: block;
+            position: relative;
+            width: 53%;
+            top: 10px;
+            text-align: center;
+            margin: auto;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            margin: auto;
+            top: 10px;
+            text-align: center;
+        }
+        .left img{
+            width: 95px;
+            filter: invert(100%);
+        }
+        .mid li a{
+            color: rgb(248, 247, 247);
+            text-decoration: none;
+            font-size: 30px;
+        }
+        .mid li{
+            display: inline-block;
+            padding: 00px 15px ;
+        }
+        .mid li a:hover{
+            text-decoration: underline;
+            color: rgb(137, 151, 137);
+            font-style: italic;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="gym_ouline.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Conatct</a></li>
+                <li><a href= fitness.html>Fitness Calculator</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="left">
+        <img src="img/img_gym_2.jpg" alt="">
+            <div style="
+            font-size: 20px;
+            line-height: 9px;
+            color: rgb(244, 241, 241);"
+            >Soumik Fitness</div>
+        </div>
+    </div>
+    <div class="formg">
+        <h1 style="text-align: center; color: aliceblue; font-family: agbalumo;">This is your fitness Calculator</h1>
+        <form action="" class="fitness">
+            <div class="fitness">
+                <input type="text" class="text" placeholder="Enter your Weight">
+            </div>
+            <div class="fitness">
+                <input type="text" class="text" placeholder="Enter your height">
+            </div>
+            <div class="fitness">
+                <input type="text" class="text" placeholder="Enter your Age">
+                
+            <button class="btn">Calculate</button>
+        </form>
+    </div>
+    
+</body>
+</html>

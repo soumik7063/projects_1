@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soumik fitness</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: agbalumo;
+            margin:0px;
+            padding: 0px;
+            background-image: url('img/img_gym_4_11zon.jpg');
+            height: 1080px;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 29px;
+            text-align: center;
+            color: white;
+        }
+        .left img{
+            width: 95px;
+            filter: invert(90%);
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 12px;
+            top: 10px;
+        }
+        .mid{
+            display: block;
+            position: sticky;
+            width: 43%;
+            top: 5px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .nav li{
+            display: inline-block;
+            padding: 00px 15px ;
+            font-size: 20px;
+        }
+        .nav li a{
+            color: rgb(39, 35, 35);
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .nav li a:hover{
+            color: rgb(240, 30, 30);
+            text-decoration: underline;
+            font-style: italic;
+        }
+        .btn{
+            margin: 0px 9px;
+            color: white;
+            padding: 8px;
+            background-color: black;
+            border:2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        .btn:hover {
+            background-color: rgb(240, 235, 235);
+            color: black;
+            border: 2px solid black;
+        }
+        .container{
+            border: 2px solid rgb(41, 42, 41);
+            margin: 140px 100px 0px;
+            width: 37%;
+            color: rgb(51, 50, 50);
+            padding: 50px;
+            border-radius: 14px;
+            box-shadow: 10px 10px 10px black;
+        }
+        .formgrp input{
+            font-family: agbalumo;
+            text-align: center;
+            display: block;
+            margin:10px auto;
+            padding: 3px;
+            width: 92%;
+            border: 2px solid rgb(32, 31, 31);
+            border-radius: 6px;
+            font-size: 17px;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+        .info{
+            display: block;
+            margin: auto;
+            width: 93%;
+            font-size: 22px;
+        }
+        .info ul li{
+            display: inline-block;
+            margin: 6px;
+            background-color: rgb(183, 189, 189);
+            border-radius: 4px;
+        }
+        .address{
+            display: block;
+            text-align: center;
+            position: relative;
+            width: 75%;
+            margin: auto;
+            top: 270px;
+            font-size: 25px;
+            background-color: rgb(183, 189, 189);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box of logo -->
+        <div class="left">
+            <img src="img/img_gym_2.jpg" alt="">
+            <div style="
+            font-size: 20px;
+            line-height: 7px;
+            color: rgb(27, 27, 27);"
+            >Soumik Fitness</div>
+        </div>
+        <!-- navigation menu -->
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Conatct</a></li>
+                <li><a href= fitness.html>Fitness Calculator</a></li>
+            </ul>
+
+            <!-- search box -->
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">Email us</button>
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1 align="center">Join this best GYM in your area</h1>
+        <form action="noacton.php">
+            <div class="formgrp">
+            <input type="text" class="text" placeholder="Enter your name">
+        </div>
+            <div class="formgrp">
+            <input type="text" class="text" placeholder="Enter your age">
+        </div>
+            <div class="formgrp">
+            <input type="text" class="text" placeholder="Enter your Mob No">
+        </div>
+            <div class="formgrp">
+            <input type="text" class="text" placeholder="Enter your Address">
+        </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="info">
+        <ul>
+            <div><li>Opening time 8:00 am - Closing time 10:00 pm.</li></div>
+            <div><li>All types of new and modified instruments available.</li></div>
+            <div> <li>Taking 6 months subscription <span style="background-color: rgb(52, 248, 17); font-size: 25px;">FLAT 500/- OFF.</span></li></div>
+            <li>HURRY UP!!! </li>
+        </ul>
+    </div>
+    <div class="address">
+        <span>Raghunathpur, Barakar Road near Factory Bazzar, Purulia, 723133</span>
+    </div>
+</body>
+</html>
